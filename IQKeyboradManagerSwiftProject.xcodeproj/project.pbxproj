@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E35C8D29AFBBBAA4D26CD85 /* Pods_IQKeyboradManagerSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316A79FAE648D9EF28354525 /* Pods_IQKeyboradManagerSwiftProject.framework */; };
 		7DC52EF122EE8692007ABB48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC52EF022EE8692007ABB48 /* AppDelegate.swift */; };
 		7DC52EF322EE8692007ABB48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC52EF222EE8692007ABB48 /* ViewController.swift */; };
 		7DC52EF622EE8692007ABB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC52EF422EE8692007ABB48 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AF3C493D30F865829B169E5 /* Pods-IQKeyboradManagerSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboradManagerSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-IQKeyboradManagerSwiftProject/Pods-IQKeyboradManagerSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		316A79FAE648D9EF28354525 /* Pods_IQKeyboradManagerSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQKeyboradManagerSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC52EED22EE8692007ABB48 /* IQKeyboradManagerSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQKeyboradManagerSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC52EF022EE8692007ABB48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DC52EF222EE8692007ABB48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		7DC52EF722EE8693007ABB48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC52EFA22EE8693007ABB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC52EFC22EE8693007ABB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C39830ED978BE8B4E8B731 /* Pods-IQKeyboradManagerSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboradManagerSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-IQKeyboradManagerSwiftProject/Pods-IQKeyboradManagerSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E35C8D29AFBBBAA4D26CD85 /* Pods_IQKeyboradManagerSwiftProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79BCD5D67F6C403EAD003EEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C39830ED978BE8B4E8B731 /* Pods-IQKeyboradManagerSwiftProject.debug.xcconfig */,
+				0AF3C493D30F865829B169E5 /* Pods-IQKeyboradManagerSwiftProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7DC52EE422EE8692007ABB48 = {
 			isa = PBXGroup;
 			children = (
 				7DC52EEF22EE8692007ABB48 /* IQKeyboradManagerSwiftProject */,
 				7DC52EEE22EE8692007ABB48 /* Products */,
+				79BCD5D67F6C403EAD003EEE /* Pods */,
+				EDADA355BB470A0E819E4F8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +81,14 @@
 			path = IQKeyboradManagerSwiftProject;
 			sourceTree = "<group>";
 		};
+		EDADA355BB470A0E819E4F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				316A79FAE648D9EF28354525 /* Pods_IQKeyboradManagerSwiftProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC52EFF22EE8693007ABB48 /* Build configuration list for PBXNativeTarget "IQKeyboradManagerSwiftProject" */;
 			buildPhases = (
+				D65BD153EE4B4E805A5E6826 /* [CP] Check Pods Manifest.lock */,
 				7DC52EE922EE8692007ABB48 /* Sources */,
 				7DC52EEA22EE8692007ABB48 /* Frameworks */,
 				7DC52EEB22EE8692007ABB48 /* Resources */,
+				D9911FB5DD68CBFAB2ECF8DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D65BD153EE4B4E805A5E6826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboradManagerSwiftProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9911FB5DD68CBFAB2ECF8DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboradManagerSwiftProject/Pods-IQKeyboradManagerSwiftProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboradManagerSwiftProject/Pods-IQKeyboradManagerSwiftProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQKeyboradManagerSwiftProject/Pods-IQKeyboradManagerSwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DC52EE922EE8692007ABB48 /* Sources */ = {
@@ -280,6 +349,7 @@
 		};
 		7DC52F0022EE8693007ABB48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C39830ED978BE8B4E8B731 /* Pods-IQKeyboradManagerSwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +368,7 @@
 		};
 		7DC52F0122EE8693007ABB48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF3C493D30F865829B169E5 /* Pods-IQKeyboradManagerSwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
